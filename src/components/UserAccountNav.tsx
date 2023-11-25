@@ -26,10 +26,10 @@ export default function UserAccountNav({ user }: UserAccountNavProps) {
         />
       </DropdownMenuTrigger>
       <DropdownMenuContent
-        className="bg-white drop-shadow-lg rounded-md"
+        className="bg-white drop-shadow-lg rounded-s-xl mt-[4.5px]"
         align="end"
       >
-        <div className="flex items-center justify-start gap-2 p-2">
+        <div className="flex items-center justify-start gap-2 p-1">
           <div className="flex flex-col space-y-1 leading-none">
             {user.name && <p className="font-medium">{user.name}</p>}
             {user.email && (

@@ -35,7 +35,7 @@ const UserAuthForm: FC<UserAuthFormProps> = ({ className, ...props }) => {
         onClick={signInWithGoogle}
         isLoading={isLoading}
         size={"sm"}
-        className="w-full bg-green-400 text-white font-semibold rounded-full"
+        className="w-full text-white font-semibold rounded-full"
       >
         {" "}
         {isLoading ? null : (
