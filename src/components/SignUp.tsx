@@ -1,6 +1,7 @@
 import React from "react";
 import { Icons } from "./Icons";
 import UserAuthForm from "./UserAuthForm";
+import Link from "next/link";
 
 export default function SignUp() {
   return (
@@ -16,6 +17,15 @@ export default function SignUp() {
         </p>
         {/* SignIn form */}
         <UserAuthForm />
+        <p className="px-8 text-center text-sm text-zinc-700">
+          Already have an account ?{" "}
+          <Link
+            href="/sign-in"
+            className="hover:text-zinc-800 text-sm underline underline-offset-4"
+          >
+            Sign In
+          </Link>
+        </p>
       </div>
     </div>
   );

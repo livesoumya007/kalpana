@@ -21,7 +21,7 @@ export default function SignIn() {
         <p className="px-8 text-center text-sm text-zinc-700">
           New to Kalpana ?{" "}
           <Link
-            href="sign-up"
+            href="/sign-up"
             className="hover:text-zinc-800 text-sm underline underline-offset-4"
           >
             Sign Up

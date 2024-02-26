@@ -13,6 +13,7 @@ export const authOptions: NextAuthOptions = {
   pages: {
     signIn: "/sign-in",
   },
+  // process.env.GOOGLE_CLIENT_ID! here the significance of `!` is to tell Typescript that realx and chill we have defined this ion the env variable
   providers: [
     GoogleProvider({
       clientId: process.env.GOOGLE_CLIENT_ID!,
